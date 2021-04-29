@@ -14,6 +14,12 @@
   border: none;
 }
 
+.login-form__form input::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
 .login-form__form .login-form__form__id,
 .login-form__form .login-form__form__password {
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
@@ -36,6 +42,8 @@
   padding: 13px 0px;
   border-radius: 5px;
   background-color: var(--basecolor);
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .login-form__form .login-form__form__login {
