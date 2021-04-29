@@ -1,0 +1,9 @@
+.body-div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-space {
+  height: 20%;
+}

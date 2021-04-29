@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kokoa Talk Review</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <div class="body-div">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <div class="welcome-text">
+        <header class="welcome-text__header">
+          <h1>잡두톡에 오신 것을 환영합니다.</h1>
+          <p>
+            이미 잡두톡 계정이 있으시면<br />
+            이메일이나 전화번호로 로그인해주세요.
+          </p>
+        </header>
+      </div>
+
+      <div class="login-form">
+        <form class="login-form__form">
+          <input
+            type="text"
+            name="username"
+            placeholder="이메일 또는 전화번호"
+            class="login-form__form__id"
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="비밀번호"
+            class="login-form__form__password"
+          />
+          <input
+            type="submit"
+            value="로그인"
+            name="login"
+            formaction="friends.html"
+            class="login-form__form__login"
+          />
+          <input
+            type="submit"
+            value="회원가입"
+            name="signup"
+            formaction="signup.html"
+            class="login-form__form__signup"
+          />
+          <a href="#">아이디 또는 비밀번호 찾기</a>
+        </form>
+      </div>
+
+      <div class="empty-space"></div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/26fe6cc36f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
