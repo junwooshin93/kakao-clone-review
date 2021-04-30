@@ -1,9 +1,10 @@
 @import "reset.css";
 @import "variables.css";
 
-/* Status Bar */
+/* Components */
 @import "components/status-bar.css";
 @import "components/welcome.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
