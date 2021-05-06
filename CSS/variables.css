@@ -1,3 +1,6 @@
 :root {
   --basecolor: rgb(238, 225, 190);
+  --basecolor-strong: rgb(228, 203, 133);
+  --basebackgroundcolor: rgba(238, 225, 190, 0.2);
+  --base-border-line: 1px solid var(--basecolor);
 }

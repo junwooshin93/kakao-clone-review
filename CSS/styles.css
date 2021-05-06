@@ -5,10 +5,12 @@
 @import "components/status-bar.css";
 @import "components/welcome.css";
 @import "components/nav-bar.css";
+@import "components/bodydiv.css";
 
 /* Screens */
 @import "screens/login.css";
-@import "screens/bodydiv.css";
+@import "screens/friend.css";
+@import "screens/chats.css";
 
 body {
   height: 100vh;

@@ -1,0 +1,7 @@
+.my-profil__subcolumn {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
