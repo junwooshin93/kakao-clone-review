@@ -47,6 +47,13 @@
   align-items: center;
 }
 
+.flex-spaceevenly-flexend-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
 .font-title {
   font-size: 30px;
 }
@@ -83,6 +90,9 @@
 }
 .font-size-normal {
   font-size: 18px;
+}
+.font-size-big {
+  font-size: 21px;
 }
 
 .font-color-normal {

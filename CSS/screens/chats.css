@@ -5,3 +5,7 @@
   justify-content: space-evenly;
   margin-left: 10px;
 }
+
+.chats-my-profil__column:last-child {
+  height: 60px;
+}

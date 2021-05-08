@@ -1,0 +1,21 @@
+.notification__number {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+}
+
+.notification__dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  color: tomato;
+  font-size: 40px;
+}

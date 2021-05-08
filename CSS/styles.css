@@ -6,11 +6,13 @@
 @import "components/welcome.css";
 @import "components/nav-bar.css";
 @import "components/bodydiv.css";
+@import "components/notification.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friend.css";
 @import "screens/chats.css";
+@import "screens/find.css";
 
 body {
   height: 100vh;
