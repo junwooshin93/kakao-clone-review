@@ -2,16 +2,20 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  top: 50px;
+  top: 30px;
   padding-bottom: 15px;
+  padding-top: 20px;
+  background-color: white;
+  z-index: 6;
 }
 
 .friends-name-display {
-  background-color: var(--basebackgroundcolor);
+  background-color: var(--basebackgroundcolor2);
   top: 90px;
   position: fixed;
   width: 100%;
   padding: 10px 0px;
+  z-index: 3;
 }
 
 .friends-title-bar .fa-music {
@@ -28,6 +32,11 @@
 
 .friends-name-display i {
   color: var(--basecolor-strong);
+  margin-top: 2px;
+}
+.friends-name-display__background {
+  z-index: 2;
+  background-color: white;
 }
 
 .friends-my-profil {

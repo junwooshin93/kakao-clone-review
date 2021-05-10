@@ -1,0 +1,83 @@
+.more-my-profil {
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.more-my-profil__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.more-my-profil__info__number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-my-profil__column span {
+  margin-left: 10px;
+}
+
+.more-my-profil__info > span {
+  margin-bottom: 5px;
+}
+
+.more-my-profil__info__number > span {
+  margin-right: 3px;
+}
+
+.more-my-profil__info__number > i {
+  margin-top: 2px;
+  color: red;
+}
+
+.more-iconbar {
+  margin-top: 30px;
+}
+
+.more-iconbar__items {
+  width: 25%;
+}
+
+.more-iconbar__items > i {
+  font-size: 30px;
+}
+
+.more-iconbar__title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.more-iconbar-title {
+  padding-bottom: 40px;
+  border-bottom: var(--base-border-line);
+}
+
+.suggestion-title {
+  margin-top: 20px;
+}
+
+.suggestion-row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.suggestion-column {
+  width: 25%;
+}
+
+.suggestion-column > i {
+  font-size: 25px;
+  background-color: var(--basecolor-strong);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.suggestion-column > span {
+  margin-top: 7px;
+  color: var(--basecolor-strong);
+}

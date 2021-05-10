@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Page</title>
+    <title>More Page</title>
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body class="body-friends">
@@ -23,41 +23,47 @@
       </div>
     </div>
     <div class="body-div">
-      <div class="friends-title-bar flex-spacebetween-row body-basic-width">
-        <div class="friends-title-bar__title font-title font-bold">Chats</div>
-        <div class="friends-title-bar__nav">
-          <i class="fas fa-search fa-lg"></i>
-          <i class="far fa-comment-dots fa-lg"></i>
-          <i class="fas fa-music fa-lg"></i>
-          <i class="fas fa-cog fa-lg"></i>
+      <div class="settings-block body-basic-width-margin flex-center-row">
+        <div class="settings-column">
+          <a href="more.html"><i class="fas fa-chevron-left fa-2x"></i> </a>
+        </div>
+        <div class="settings-column">
+          <span class="font-size-big font-bold">Settings</span>
+        </div>
+        <div class="settings-column">
+          <i class="fas fa-search fa-2x"></i>
         </div>
       </div>
-      <a href="chat-screen.html">
+      <div class="settings-list body-basic-width-margin marginadd">
+        <div class="settings-list__column">
+          <i class="fas fa-bullhorn"></i>
+          <span class="font-size-normal">Notices</span>
+        </div>
+        <div class="settings-list__column"></div>
+      </div>
+      <div class="settings-list body-basic-width-margin">
+        <div class="settings-list__column">
+          <i class="fas fa-flask"></i>
+          <span class="font-size-normal">San Lab</span>
+        </div>
+        <div class="settings-list__column"></div>
+      </div>
+      <div class="settings-list body-basic-width-margin">
+        <div class="settings-list__column">
+          <i class="fas fa-info-circle"></i>
+          <span class="font-size-normal">Version</span>
+        </div>
         <div
           class="
-            friends-my-profil
-            flex-spacebetween-row
-            body-basic-width-margin
+            settings-list__column
+            version-color
+            flex-spaceevenly-flexend-row
+            font-size-normal
           "
         >
-          <div class="chats-my-profil__column flex-spacebetween-row">
-            <img
-              src="fotos/san.jpg"
-              class="foto-size-normal border-radius-big"
-            />
-            <div class="my-profil__subcolumn">
-              <span class="font-bold font-size-normal">산이</span>
-              <span class="font-color-strong font-size-xsmall">
-                엉아 오면서 간식 사와!
-              </span>
-            </div>
-          </div>
-          <div class="chats-my-profil__column flex-spaceevenly-flexend-column">
-            <span class="font-color-strong font-size-xsmall">21:22</span>
-            <span class="notification__number">1</span>
-          </div>
+          Latest Version
         </div>
-      </a>
+      </div>
 
       <div class="nav">
         <nav class="nav__nav">
@@ -83,7 +89,6 @@
           </ul>
         </nav>
       </div>
-      <!-- <div class="friend-screen"></div>-->
     </div>
 
     <script

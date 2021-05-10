@@ -7,6 +7,8 @@
   align-items: center;
   padding: 0px 5px;
   height: 5%;
+  background-color: var(--basebackgroundcolor2);
+  z-index: 7;
 }
 
 .status-bar__column {

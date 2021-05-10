@@ -6,7 +6,8 @@
   padding-bottom: 15px;
 }
 
-.find-title-bar__nav .fa-cog {
+.find-title-bar__nav .fa-cog,
+.find-title-bar__nav .fa-music {
   margin-left: 13px;
 }
 

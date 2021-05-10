@@ -1,0 +1,18 @@
+.body-chatscreen {
+  height: 11000vh;
+  width: 100%;
+  background-color: var(--basebackgroundcolor2);
+}
+
+.chat-screen-block {
+  margin-top: 45px;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 90%;
+  box-sizing: border-box;
+  background-color: var(--basebackgroundcolor2);
+}
+
+#chat-screen__statusbar {
+  background-color: var(--basebackgroundcolor2);
+}

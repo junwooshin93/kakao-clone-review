@@ -14,7 +14,7 @@
 }
 
 .body-basic-width {
-  padding: 0px 20px;
+  padding: 0px 5%;
 }
 
 .body-basic-width-margin {
@@ -52,6 +52,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-end;
+}
+
+.flex-spaceevenly-flexend-row {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
 }
 
 .font-title {

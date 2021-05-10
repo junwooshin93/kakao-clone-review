@@ -1,0 +1,44 @@
+.settings-block {
+  margin-top: 45px;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 90%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.settings-column {
+  width: 33.3%;
+}
+
+.settings-column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.settings-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.marginadd {
+  margin-top: 100px;
+}
+
+.version-color {
+  color: var(--basecolor-strong);
+}
+
+.settings-list {
+  padding: 20px 0px;
+  display: flex;
+  border-bottom: var(--base-border-line);
+}
+
+.settings-list__column {
+  width: 50%;
+}
+
+.settings-list__column > span {
+  margin-left: 10px;
+}
