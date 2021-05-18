@@ -11,7 +11,7 @@
   top: 0;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 640px) {
   #no-mobile {
     display: none;
     visibility: hidden;
