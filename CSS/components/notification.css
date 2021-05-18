@@ -8,6 +8,8 @@
   border-radius: 50%;
   font-size: 12px;
   color: white;
+  animation: notificationAnimation 2s ease-in-out infinite;
+  will-change: transform;
 }
 
 .notification__dot {
